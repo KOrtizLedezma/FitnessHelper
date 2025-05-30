@@ -1,10 +1,12 @@
 import { View, Text, StyleSheet } from 'react-native';
-import Colors from '../../constants/Colors';
+import BottomNavBar from '../components/Navbar';
+import Colors from '../constants/Colors';
 
-export default function Dashboard() {
+export default function Calories() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to the Dashboard!</Text>
+      <Text style={styles.text}>Welcome to the Calories!</Text>
+      <BottomNavBar />
     </View>
   );
 }

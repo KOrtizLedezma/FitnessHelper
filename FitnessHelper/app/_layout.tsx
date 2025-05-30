@@ -8,6 +8,7 @@ export default function Layout() {
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: 'white' },
+          gestureEnabled: false,
         }}
       />
     </SafeAreaProvider>

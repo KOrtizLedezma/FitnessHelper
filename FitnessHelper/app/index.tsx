@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Image, Text, View } from 'react-native';
+import { StyleSheet, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import Button from '../components/Button';
@@ -15,7 +15,7 @@ export default function Home() {
         style={styles.image}
         resizeMode="contain"
       />
-      <Button title="Let's Start" onPress={() => router.push('/pages/Dashboard')} />
+      <Button title="Let's Start" onPress={() => router.push('/Dashboard')} />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
